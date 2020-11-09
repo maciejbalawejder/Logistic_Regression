@@ -10,7 +10,7 @@
 * fix log(0) xin cross entropy
 * scalling data
 * optimizing model
-  * regularization - improves generalization 
+  * [x] regularization - improves generalization 
   * validation test data
   * diffrent costs functions 
   * F1 - score
