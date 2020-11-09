@@ -15,3 +15,4 @@
 * scalling data
 * optimizing result
 * fix log(0) in cross entropy
+* F1 - score
