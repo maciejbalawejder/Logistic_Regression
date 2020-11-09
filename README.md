@@ -14,4 +14,4 @@
 * one hot encoder
 * scalling data
 * optimizing result
-* fix log(0)
+* fix log(0) in cross entropy
