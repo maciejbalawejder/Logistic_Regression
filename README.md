@@ -6,12 +6,12 @@
 * cost
 * updating weights 
 
-## To do : 
-* peanulty
-* diffrent costs functions
-* data split 
-* validation test data
+## To do :
+* fix log(0) xin cross entropy
 * scalling data
-* optimizing result
-* fix log(0) in cross entropy
-* F1 - score
+* optimizing model
+** regularization - improves generalization 
+** validation test data
+** diffrent costs functions 
+** F1 - score
+
