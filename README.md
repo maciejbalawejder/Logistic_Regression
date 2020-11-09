@@ -15,5 +15,6 @@
   * [x] split function 
   * [x] plot learning curve
   * [x] F1 - score 
+  * k-fold validation set sounds cool
  
 
