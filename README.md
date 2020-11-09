@@ -11,7 +11,9 @@
 * scalling data
 * optimizing model
   * [x] regularization - improves generalization 
-  * validation test data
+  * [x] validation dataset
+  * [x] split function 
+  * [x] plot learning curve
   * diffrent costs functions 
   * F1 - score
   * learning curve
