@@ -14,3 +14,4 @@
 * one hot encoder
 * scalling data
 * optimizing result
+* fix log(0)
