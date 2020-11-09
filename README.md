@@ -1,5 +1,5 @@
 # Logistic Regression
-'Model of Logistic Regression bulit from scratch. Tested on "Hello world" Titanic dataset from Kaggle.'
+__Model of Logistic Regression bulit from scratch. Tested on "Hello world" Titanic dataset from Kaggle.__
 
 ## Fixed :
 * confusion matrix
