@@ -1,4 +1,4 @@
-# Logistic_Regression
+# Logistic Regression
 * Model of Logistic Regression bulit from scratch. Tested on "Hello world" Titanic dataset from Kaggle. 
 
 ## Fixed :
