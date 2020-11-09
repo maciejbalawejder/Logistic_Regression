@@ -11,7 +11,6 @@
 * diffrent costs functions
 * data split 
 * validation test data
-* one hot encoder
 * scalling data
 * optimizing result
 * fix log(0) in cross entropy
