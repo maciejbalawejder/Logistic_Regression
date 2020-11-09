@@ -13,5 +13,6 @@
   * regularization - improves generalization 
   * validation test data
   * diffrent costs functions 
-  * F1 - score
+  ** F1 - score
+  ** learning curve
 
