@@ -14,8 +14,6 @@
   * [x] validation dataset
   * [x] split function 
   * [x] plot learning curve
-  * [x] F1 - score
-  * diffrent costs functions 
- 
+  * [x] F1 - score 
  
 
