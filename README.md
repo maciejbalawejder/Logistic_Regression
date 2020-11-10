@@ -1,13 +1,14 @@
-# Logistic Regression
-__Model of Logistic Regression bulit from scratch. Tested on "Hello world" Titanic dataset from Kaggle.__
 
-## Fixed :
+# Logistic Regression
+Model of Logistic Regression bulit from scratch in educational purpose(to avoid situtation from the meme above) which tries to be small and clean. It is not complicated model, containing only 115 lines of code, and explaining in depth operation which are going "behind the scenes" when you use libraries like sklearn. 
+
+
+### Fixed :
 * confusion matrix
 * cost
 * updating weights 
 
-## To do :
-* fix log(0) xin cross entropy
+### To do :
 * scalling data
 * optimizing model
   * [x] regularization - improves generalization 
