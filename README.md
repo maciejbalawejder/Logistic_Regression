@@ -13,7 +13,7 @@
 
 
 #### 3) Cost - Cross-Entropy function  C=−1n∑x[yln(a)+(1−y)ln(1−a)] | a = input•weights, for traning set and validation set
-Yeah, but why cross-entropy? 
+Yeah, but why cross-entropy?\
 The bigger error between predicted output and ground truth the more it affects the loss function(more than MSE cause it is logarithmic) and forces to update weights to           achive opposite result
 
 
