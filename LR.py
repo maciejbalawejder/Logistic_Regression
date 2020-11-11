@@ -89,14 +89,11 @@ class LogisticRegression():
             elif predictions[i]==0 and y[i]==0:self.TN+=1
 
 
-    def precision(self): # predicting class 1
+    def precision(self):
         return self.TP/(self.TP+self.FP)
 
-    def sensitivity(self):
+    def recall(self):
         return self.TP/(self.TP+self.FN)
-
-    def recall(self): # predicting class 0
-        return self.TN/(self.TN+self.FP)
 
     def accuracy(self):
         return (self.TP+self.TN)/(self.TP+self.TN+self.FP+self.FN)
