@@ -41,7 +41,7 @@ The bigger error between predicted output and ground truth the more it affects t
 ### Analyzing tools
 
 #### Confusion matrix - table allowing to __see__ the performance of the model and also calculate parameters such as: 
-![Confusion matrix](https://github.com/maciejbalawejder/Logistic_Regression/blob/main/confusion-matrix.jpg)
+![Confusion matrix](https://github.com/maciejbalawejder/Logistic_Regression/blob/main/confusion-matrix.png)
 ##### Precision - out of all the positive classes we have predicted correctly, how many are actually positive
 ##### Recall - out of all the positive classes, how much we predicted correctly
 ##### F1-score - in the model when there is no sepecific goal about precision or recall, it is easier to use combination of both
