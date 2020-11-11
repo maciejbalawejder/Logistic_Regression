@@ -13,8 +13,8 @@
 
 
 #### 3) Cost - Cross-Entropy function  C=−1n∑x[yln(a)+(1−y)ln(1−a)] | a = input•weights, for traning set and validation set
-        Yeah, but why cross-entropy? 
-        The bigger error between predicted output and ground truth the more it affects the loss function(more than MSE cause it is logarithmic) and forces to update weights to           achive opposite result
+Yeah, but why cross-entropy? 
+The bigger error between predicted output and ground truth the more it affects the loss function(more than MSE cause it is logarithmic) and forces to update weights to           achive opposite result
 
 
 #### 4) Update - updates the weights W[i] = W[i-1] - learning_rate * dJ/dW
@@ -24,19 +24,15 @@
         
 ##### Example 
 
-        '''
         model = LogisticRegression()
         predictions = model.predict(X_test)
-        '''
 
 #### 6) Fit - takes arguments X - inputs, and y - ground truth. For number of iterations, the loss function and updating weights is executed on given X,y. The regularization parameter can be change to True, to use regularization, and validation procent can be change by changing validation float value.  
 
 ##### Example
 
-        '''
         model = LogisticRegression()
         model.fit(X_train,Y_train,regularization=False,validation=0.1) # regularization=False,validation=0.1 these ones are set by default to this values 
-        '''
 
 ### Fixed :
 * confusion matrix
