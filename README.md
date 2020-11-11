@@ -23,16 +23,27 @@ The bigger error between predicted output and ground truth the more it affects t
 #### 5) Predict - gives a predicted values based on trained weights and given inputs(X) - OUTPUT = X • Weights. Default thershold value is 0.5.
         
 ##### Example 
-
+        '''python
         model = LogisticRegression()
         predictions = model.predict(X_test)
-
+        '''
 #### 6) Fit - takes arguments X - inputs, and y - ground truth. For number of iterations, the loss function and updating weights is executed on given X,y. The regularization parameter can be change to True, to use regularization, and validation procent can be change by changing validation float value.  
 
 ##### Example
-
+        '''python
         model = LogisticRegression()
         model.fit(X_train,Y_train,regularization=False,validation=0.1) # regularization=False,validation=0.1 these ones are set by default to this values 
+        '''
+### Analyzing tools
+
+#### Confusion matrix - table allowing to __see__ the performance of the model and also calculate parameters such as: 
+![Confusion matrix](https://github.com/maciejbalawejder/Logistic_Regression/blob/main/confusion-matrix.jpg)
+##### Precision - out of all the positive classes we have predicted correctly, how many are actually positive
+##### Recall - out of all the positive classes, how much we predicted correctly
+##### F1-score - in the model when there is no sepecific goal about precision or recall, it is easier to use combination of both
+##### Accuracy - pretty straightforward, how accurate is model on testing data
+##### Learning plot - function Loss(iterations) for validation and testing set to performance of the model and detect possible overfitting or underfitting problem  
+
 
 ### Fixed :
 * confusion matrix
