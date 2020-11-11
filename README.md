@@ -5,7 +5,7 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Main functions : 
 
-#### 1) Sigmoid - 1/(1+e^(-input•weights)) - the function is squashing values and keep them between(0,1), it never reaches 0 or 1, which solves issue in Cross-Entropy ln(0) 
+   #### 1) Sigmoid - 1/(1+e^(-input•weights)) - the function is squashing values and keep them between(0,1), it never reaches 0 or 1, which solves issue in Cross-Entropy ln(0) 
 ![Sigmoid](https://github.com/maciejbalawejder/Logistic_Regression/blob/main/sigmoid.png)
 
 
