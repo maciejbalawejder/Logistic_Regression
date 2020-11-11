@@ -23,16 +23,20 @@ The bigger error between predicted output and ground truth the more it affects t
 #### 5) Predict - gives a predicted values based on trained weights and given inputs(X) - OUTPUT = X • Weights. Default thershold value is 0.5.
         
 ##### Example 
-        '''python
+        '''
+        
         model = LogisticRegression()
         predictions = model.predict(X_test)
+        
         '''
 #### 6) Fit - takes arguments X - inputs, and y - ground truth. For number of iterations, the loss function and updating weights is executed on given X,y. The regularization parameter can be change to True, to use regularization, and validation procent can be change by changing validation float value.  
 
 ##### Example
-        '''python
+        '''
+        
         model = LogisticRegression()
-        model.fit(X_train,Y_train,regularization=False,validation=0.1) # regularization=False,validation=0.1 these ones are set by default to this values 
+        model.fit(X_train,Y_train,regularization=False,validation=0.1) # regularization=False,validation=0.1 these ones are set by default
+        
         '''
 ### Analyzing tools
 
