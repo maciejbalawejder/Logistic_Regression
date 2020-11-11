@@ -1,3 +1,4 @@
+import numpy as np
 class LogisticRegression():
     def __init__(self,iterations=100,alpha=0.0115):
         self.iterations = iterations
